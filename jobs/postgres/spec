@@ -7,3 +7,19 @@ templates:
 packages:
   - common
   - postgres
+
+properties:
+  db:
+    description: All information about the database(s).
+  databases.roles:
+    description:  The database role(s).
+  databases.databases:
+    description: Information about a database.
+  databases.address:
+    description: The server address.
+  databases.port:
+    desription: The server port.
+  databases.pool_size:
+    description: The server connection pool size.
+  databases.db_scheme:
+    description: The connection string scheme.
